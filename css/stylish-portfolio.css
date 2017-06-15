@@ -10,10 +10,12 @@ html,
 body {
     width: 100%;
     height: 100%;
+    t
 }
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 .text-vertical-center {
@@ -97,19 +99,20 @@ hr.small {
 
 .sidebar-nav li a {
     display: block;
-    text-decoration: none;
+    text-decoration: underline;
     color: #999;
+    font-family: sans-serif;
 }
 
 .sidebar-nav li a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    background: rgba(CFCF00);
 }
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .sidebar-nav > .sidebar-brand {
@@ -155,7 +158,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/burger.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -168,10 +171,16 @@ hr.small {
     padding: 50px 0;
 }
 
-/* Services */
+/* Services */ 
 
 .services {
     padding: 50px 0;
+    background-color:#85001b;
+    background-image: url(..img/pasta.jpg) no-repeat center center scroll;
+    -webkit-background-size:cover;
+    -moz- background -size: cover;
+    background-size: cover;
+    -o- background-size: cover;
 }
 
 .service-item {
@@ -185,17 +194,16 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/table.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+ 
 }
 
-/* Portfolio */
+/*
 
-.portfolio {
-    padding: 50px 0;
+.tab {
+    padding:  50px 0;
 }
 
 .portfolio-item {
@@ -214,6 +222,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background:#FFFF00;
 }
 
 .call-to-action .btn {
